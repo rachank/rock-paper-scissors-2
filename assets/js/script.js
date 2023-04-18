@@ -5,3 +5,12 @@ let compPick;
 //const winnerResult = document.getElementById("winnerResult"); 
 //add above to HTML Modal div
 const modal = document.getElementsByClassName(".modal")
+
+// GameBoard area - play game
+
+function playGame(e) {
+    const pPick = e.target.id;
+    findCompPick();
+    const checkWinner = findWinner(pPick, compPick);
+    console.log(pPick, compPick, checkWinner);
+}

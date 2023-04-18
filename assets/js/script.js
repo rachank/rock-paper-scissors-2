@@ -32,4 +32,28 @@ function findCompPick() {
             break;
     }
 }
+//Get the Winner of the game
+function findWinner(pPick, compPick) {
+    if (pPick === compPick) {
+        return "tie";
+    } else if (pPick === "rock") {
+        if (compPick === "paper") {
+            return "computer";
+     } else {
+        return "player";
+     }     
+    } else if (pPick === "paper") {
+        if (compPick === "scissors") {
+            return "computer";
+        } else {
+            return "player";
+        }
+    } else if (pPick === "scissors") {
+        if (compPick === "rock") {
+            return "computer";
+        } else {
+            return "player";
+        }
+    }
+}
 

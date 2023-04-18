@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+body {
+    font-family: 'East Sea Dokdo', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+}

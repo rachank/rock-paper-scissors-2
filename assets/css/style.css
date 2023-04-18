@@ -51,4 +51,39 @@ body {
     margin-block-start: 0.3em;
     margin-block-end: 0.3em;
 }
+/* style gameboard area */
+
+.gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0, 1.5em;
+    border: none;
+    overflow-x: hidden;  
+    
+}
+
+.gameboardimage .startimage {
+    display: block;
+    padding: 1.5em;
+    cursor: pointer;
+}
+
+.startimage {
+    max-width: 100%;
+    padding: 1.5em;
+    align-content: center;
+    overflow: hidden;
+    object-fit: cover;
+    transition: 120ms;
+}
+
+.startimage:hover {
+    transform: scale(0.9);
+}
 

@@ -14,3 +14,6 @@ function playGame(e) {
     const checkWinner = findWinner(pPick, compPick);
     console.log(pPick, compPick, checkWinner);
 }
+// Event Listener for each initial click on start images to play game
+startImages.forEach(startimage => startimage.addEventListener('click', playGame));
+

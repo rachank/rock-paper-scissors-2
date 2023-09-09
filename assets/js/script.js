@@ -2,6 +2,11 @@
 
 let startImages = document.querySelectorAll(".startimage");
 let compPick;
+
+//Variables to track scores
+let playerScore = 0;
+let computerScore = 0;
+
 //const winnerResult = document.getElementById("winnerResult"); 
 //add above to HTML Modal div
 const modal = document.getElementsByClassName(".modal")
@@ -57,3 +62,7 @@ function findWinner(pPick, compPick) {
     }
 }
 
+// Display the player choice image, computer choice image 
+
+function displayWinner(pPick, compPick)
+    document.getElementById

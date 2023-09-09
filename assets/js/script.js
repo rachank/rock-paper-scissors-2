@@ -11,6 +11,12 @@ let computerScore = 0;
 //add above to HTML Modal div
 const modal = document.getElementsByClassName(".modal")
 
+//Update score display
+function updateScore() {
+    document.getElementById('playerScore').textContent = playerScore;
+    document.getElementById('computerScore').textContent = compterScore;
+}
+
 // GameBoard area - play game
 
 function playGame(e) {
@@ -38,31 +44,41 @@ function findCompPick() {
     }
 }
 //Get the Winner of the game
+let resultText = '';
 function findWinner(pPick, compPick) {
     if (pPick === compPick) {
-        return "It's a tie!";
+        resultText = "It's a tie!";
     } else if (pPick === "rock") {
         if (compPick === "paper") {
-            return "Computer wins!";
+            resultText = "Computer wins!";
+            computerScore++;
      } else {
-        return "Player wins!";
+        resultText = "Player wins!";
+        playerScore++;
+
      }     
     } else if (pPick === "paper") {
         if (compPick === "scissors") {
-            return "Computer Wins!";
+            resultText = "Computer Wins!";
+            computerScore++;
         } else {
-            return "Player wins!";
+            resultText = "Player wins!";
+            playerScore++;
         }
     } else if (pPick === "scissors") {
         if (compPick === "rock") {
-            return "Computer wins!";
+            resultText = "Computer wins!";
+            computerScore++;
         } else {
-            return "Player wins!";
+            resultText = "Player wins!";
+            playerScore++;
         }
     }
 }
 
+// Update the score display
+updateScore();
+
 // Display the player choice image, computer choice image 
 
-function displayWinner(pPick, compPick)
-    document.getElementById
+

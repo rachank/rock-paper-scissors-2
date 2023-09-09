@@ -48,30 +48,37 @@ let resultText = '';
 function findWinner(pPick, compPick) {
     if (pPick === compPick) {
         resultText = "It's a tie!";
+        return "It's a tie!";
     } else if (pPick === "rock") {
         if (compPick === "paper") {
             resultText = "Computer wins!";
             computerScore++;
+            return "Computer wins!";
      } else {
         resultText = "Player wins!";
         playerScore++;
+        return "Player wins!";
 
      }     
     } else if (pPick === "paper") {
         if (compPick === "scissors") {
             resultText = "Computer Wins!";
             computerScore++;
+            return "Computer wins!";
         } else {
             resultText = "Player wins!";
             playerScore++;
+            return "Player wins!";
         }
     } else if (pPick === "scissors") {
         if (compPick === "rock") {
             resultText = "Computer wins!";
             computerScore++;
+            return "Computer wins!";
         } else {
             resultText = "Player wins!";
             playerScore++;
+            return "Player wins!";
         }
     }
 }

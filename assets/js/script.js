@@ -35,24 +35,24 @@ function findCompPick() {
 //Get the Winner of the game
 function findWinner(pPick, compPick) {
     if (pPick === compPick) {
-        return "tie";
+        return "It's a tie!";
     } else if (pPick === "rock") {
         if (compPick === "paper") {
-            return "computer";
+            return "Computer wins!";
      } else {
-        return "player";
+        return "Player wins!";
      }     
     } else if (pPick === "paper") {
         if (compPick === "scissors") {
-            return "computer";
+            return "Computer Wins!";
         } else {
-            return "player";
+            return "Player wins!";
         }
     } else if (pPick === "scissors") {
         if (compPick === "rock") {
-            return "computer";
+            return "Computer wins!";
         } else {
-            return "player";
+            return "Player wins!";
         }
     }
 }

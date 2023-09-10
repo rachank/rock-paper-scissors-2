@@ -7,9 +7,6 @@ let compPick;
 let playerScore = 0;
 let computerScore = 0;
 
-
-
-
 //Update score display
 function updateScore() {
     document.getElementById('playerScore').textContent = playerScore;
@@ -46,7 +43,7 @@ function findCompPick() {
             break;
     }
     // Update the computer's choice display
-document.getElementById('compPick').textContent = compPick;
+    document.getElementById('compPick').textContent = compPick;
 }
 
 //Get the Winner of the game
@@ -54,26 +51,18 @@ function findWinner(pPick, compPick) {
     if (pPick === compPick) {
         return "It's a tie game!";
     } else if (
-            (pPick === "rock" && compPick === 'scissors') ||
-            (pPick === "paper" && compPick === 'rock') ||
-            (pPick === 'scissors' && compPick === 'paper') 
-    ) { 
-            playerScore++;
-            //update player score
-            document.getElementById('playerScore').textContent = playerScore;
-            return "You win!";   
+        (pPick === "rock" && compPick === 'scissors') ||
+        (pPick === "paper" && compPick === 'rock') ||
+        (pPick === 'scissors' && compPick === 'paper')
+    ) {
+        playerScore++;
+        //update player score
+        document.getElementById('playerScore').textContent = playerScore;
+        return "You win!";
     } else {
-            computerScore++;
-            //Update computer score
-            document.getElementById('computerScore').textContent = computerScore;
-            return "Computer wins!";
-        } 
+        computerScore++;
+        //Update computer score
+        document.getElementById('computerScore').textContent = computerScore;
+        return "Computer wins!";
+    }
 }
-
-
-
-
-
-
-
-

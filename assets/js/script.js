@@ -7,14 +7,13 @@ let compPick;
 let playerScore = 0;
 let computerScore = 0;
 
-//const winnerResult = document.getElementById("winnerResult"); 
-//add above to HTML Modal div
-const modal = document.getElementsByClassName(".modal")
+
+
 
 //Update score display
 function updateScore() {
     document.getElementById('playerScore').textContent = playerScore;
-    document.getElementById('computerScore').textContent = compterScore;
+    document.getElementById('computerScore').textContent = computerScore;
 }
 
 // GameBoard area - play game
@@ -44,48 +43,56 @@ function findCompPick() {
     }
 }
 //Get the Winner of the game
-let resultText = '';
+
 function findWinner(pPick, compPick) {
     if (pPick === compPick) {
-        resultText = "It's a tie!";
         return "It's a tie!";
     } else if (pPick === "rock") {
         if (compPick === "paper") {
-            resultText = "Computer wins!";
             computerScore++;
             return "Computer wins!";
      } else {
-        resultText = "Player wins!";
         playerScore++;
         return "Player wins!";
 
      }     
     } else if (pPick === "paper") {
         if (compPick === "scissors") {
-            resultText = "Computer Wins!";
             computerScore++;
             return "Computer wins!";
         } else {
-            resultText = "Player wins!";
             playerScore++;
             return "Player wins!";
         }
     } else if (pPick === "scissors") {
         if (compPick === "rock") {
-            resultText = "Computer wins!";
             computerScore++;
             return "Computer wins!";
         } else {
-            resultText = "Player wins!";
             playerScore++;
             return "Player wins!";
         }
     }
+    // Update the score display
+    updateScore();
+
 }
 
-// Update the score display
-updateScore();
 
-// Display the player choice image, computer choice image 
+ 
+
+
+// Determine game result
+const result = findWinner(pPick, compPick);
+
+// Update the computer choice
+document.getElementById('compPick').innerHTML = `<img src="${'startimage'}.jpg" alt="${'startimage'}">`;
+
+
+//Display result of game
+document.getElementById('result').textContent = result;
+
+
+
 
 

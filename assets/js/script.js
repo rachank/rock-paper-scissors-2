@@ -23,6 +23,10 @@ function playGame(e) {
     findCompPick();
     const checkWinner = findWinner(pPick, compPick);
     console.log(pPick, compPick, checkWinner);
+    // Determine game result
+    const result = findWinner(pPick, compPick);
+    //Display result of game
+    document.getElementById('result').textContent = result;
 }
 // Event Listener for each initial click on start images to play game
 startImages.forEach(startimage => startimage.addEventListener('click', playGame));
@@ -41,56 +45,33 @@ function findCompPick() {
             compPick = "scissors";
             break;
     }
+    // Update the computer's choice display
+document.getElementById('compPick').textContent = compPick;
 }
-//Get the Winner of the game
 
+//Get the Winner of the game
 function findWinner(pPick, compPick) {
     if (pPick === compPick) {
-        return "It's a tie!";
-    } else if (pPick === "rock") {
-        if (compPick === "paper") {
-            computerScore++;
-            return "Computer wins!";
-     } else {
-        playerScore++;
-        return "Player wins!";
-
-     }     
-    } else if (pPick === "paper") {
-        if (compPick === "scissors") {
-            computerScore++;
-            return "Computer wins!";
-        } else {
+        return "It's a tie game!";
+    } else if (
+            (pPick === "rock" && compPick === 'scissors') ||
+            (pPick === "paper" && compPick === 'rock') ||
+            (pPick === 'scissors' && compPick === 'paper') 
+    ) { 
             playerScore++;
-            return "Player wins!";
-        }
-    } else if (pPick === "scissors") {
-        if (compPick === "rock") {
+            //update player score
+            document.getElementById('playerScore').textContent = playerScore;
+            return "You win!";   
+    } else {
             computerScore++;
+            //Update computer score
+            document.getElementById('computerScore').textContent = computerScore;
             return "Computer wins!";
-        } else {
-            playerScore++;
-            return "Player wins!";
-        }
-    }
-    // Update the score display
-    updateScore();
-
+        } 
 }
 
 
- 
 
-
-// Determine game result
-const result = findWinner(pPick, compPick);
-
-// Update the computer choice
-document.getElementById('compPick').innerHTML = `<img src="${'startimage'}.jpg" alt="${'startimage'}">`;
-
-
-//Display result of game
-document.getElementById('result').textContent = result;
 
 
 

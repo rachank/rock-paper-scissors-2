@@ -87,3 +87,13 @@ body {
     transform: scale(0.9);
 }
 
+#result {
+    
+}
+
+.choice {
+    font-size: 6em;
+    text-align: center;
+    margin-block-start: 0.1em;
+    margin-block-end: 6em;
+}

@@ -5,17 +5,17 @@ This is a rock paper scissors game. It is designed to be used by a single player
 
 The rules of the game are the same as the original version. Rock beats scissors, scissors beats paper, and paper beats rock.
 
-This game is targeted for people who have an interest in gaming. The additional graphics also incorrporate some more fun into the game. The game lists the rules and instructions at the beginning with a little history fact on the game.
+This game is targeted for people who have an interest in gaming. The additional graphics also incorrporate some more fun into the game. The game lists the rules and instructions at the beginning with a little history fact on the game origins.
 
 [View the live project here.](https://rachank.github.io/rock-paper-scissors-2/)
 
-![Screen shot of the game tested on Am I Responsive website](/workspace/rock-paper-scissors-2/image.png)
+![Screen shot of the game tested on Am I Responsive website](readme-images/am-i-responsive-image.png)
 
 ## Table of Contents
 
 - Features
 - Design
-- Technoligies Used
+- Technologies Used
 - Testing
 - Deployment
 - Credits
@@ -24,5 +24,9 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 
 
+### Features
+
+
+#### Title and Logo
 
 

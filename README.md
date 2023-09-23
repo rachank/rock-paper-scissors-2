@@ -13,12 +13,11 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 ## Table of Contents
 
-- Features
-- Design
-- Technologies Used
-- Testing
-- Deployment
-- Credits
+- [Features](###-Features)
+- [Technologies Used](###-Technologies-Used)
+- [Testing](###-Testing)
+- [Deployment](###-Deployment)
+- [Credits](###-Credits)
 
 
 
@@ -29,4 +28,36 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 #### Title and Logo
 
+- The Title of the Game is clearly centered and 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Technologies Used
+
+
+
+
+### Testing
+
+
+
+### Deployment
+
+
+
+
+### Credits

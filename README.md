@@ -28,7 +28,9 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 #### Title and Logo
 
-- The Title of the Game is clearly centered and using the 
+- The Title of the Game is clearly centered. 
+- Below the title is a small logo utilizing the combination of the rock, paper and scissors game images.
+- 
 
 
 
@@ -43,7 +45,26 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 
 
+#### Features Left to Implement
 
+- Include mulitple random images for the winner and loser in a pop up modal 
+- Some of the Loser Image examples to Add:
+
+![dazed paper](assets/images/images-lose/paper-lose-dazed.jpg)
+![sad paper](assets/images/images-lose/paper-lose-sad.jpg)
+![grumpy rock](assets/images/images-lose/rock-lose-grumpy.jpg)
+![surprised rock](assets/images/images-lose/rock-lose-surprise.jpg)
+![sad scissors](assets/images/images-lose/scissors-lose-sad.jpg)
+![surprised scissors](assets/images/images-lose/scissors-lose-surprise.jpg)
+
+- Some of the Winner Image Examples to Add:
+
+![smiling paper](assets/images/images-win/paper-win-smile.jpg)
+![teasing paper](assets/images/images-win/paper-win-tease.jpg)
+![laughing rock](assets/images/images-win/rock-win-laugh.jpg)
+![winking rock](assets/images/images-win/rock-win-wink.jpg)
+![laughing scissors](assets/images/images-win/scissors-win-laugh.jpg)
+![smiling scissors](assets/images/images-win/scissors-win-smile.jpg)
 
 
 ### Technologies Used

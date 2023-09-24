@@ -97,11 +97,9 @@ This site was deployed to GitHub pages and the steps to deploy are as follows:
 
 - All content and images were produced by the developer.
 
-- Wikipedia provided historical facts on the game of rock-paper-scissors
-  
-  [https://en.wikipedia.org/wiki/Rock_paper_scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+- [Wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors) provided historical facts on the game of rock-paper-scissors
 
-Multiple websites and tutorials on these sites were referred to for learning purposes, review of HTML, CSS, and Javascript and for inspiration:
+Multiple websites and tutorials on these sites were referred to for learning purposes, review of HTML, CSS, and Javascript:
 
 - [Web Dev Simplified - both blog and YouTube channel](https://blog.webdevsimplified.com/)
 
@@ -117,4 +115,12 @@ Multiple websites and tutorials on these sites were referred to for learning pur
 
 - [Stack Overflow](https://stackoverflow.com/)
 
-- 
+To learn how to use Adobe Fresco:
+
+- [Adobe Fresco Tutorials](https://creativecloud.adobe.com/de/learn/app/fresco)
+
+- Various Channels on [YouTube](https://www.youtube.com/)
+
+#### Acknowledgments
+
+Many many thanks to my mentor Brian Macharia who was very patient with my questions and gave me wonderful advice on how to plan and execute this project. He also recommended many ideas and resources to assit with coding, design, and testing.

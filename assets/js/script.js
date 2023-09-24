@@ -57,12 +57,12 @@ function findWinner(pPick, compPick) {
     ) {
         playerScore++;
         //update player score
-        document.getElementById('playerScore').textContent = playerScore;
+        //document.getElementById('playerScore').textContent = playerScore;
         return "You win!";
     } else {
         computerScore++;
         //Update computer score
-        document.getElementById('computerScore').textContent = computerScore;
+       // document.getElementById('computerScore').textContent = computerScore;
         return "Computer wins!";
     }
 }

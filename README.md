@@ -25,24 +25,16 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 ### Design Features
 
-
-#### Title and Logo
-
 - The Title of the Game is centered and in bold to show . 
-- Below the title is a small logo utilizing the combination of the rock, paper and scissors game images.
-- 
+- Below the title is a small logo utilizing the combination of the rock, paper and scissors game images with some fun expressions.
+- The site is in black and white to better suit and emphasize the style of images it contains
+- Google Fonts was used to import the font family East Sea Dokdo, which was chosen and used throughout the entire site with Sans Sarif as the backup font. East Sea Dokdo compliments the style of the images in it's course texture and bold design.
+- To increase the enjoyment of the game I designed some fun images to use as start images for rock, paper, and scissors with some fun facial expressions.
 
-
-
-
-
-
-
-
-
-
-
-
+- Start images of rock, paper, and scissors
+![rock start image](assets/images/images-start/rock-start.jpg)
+![paper start image](assets/images/images-start/paper-start.jpg)
+![scissors start image](assets/images/images-start/scissors-start.jpg)
 
 
 #### Features Left to Implement

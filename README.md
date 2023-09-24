@@ -11,27 +11,21 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 ![Screen shot of the game tested on Am I Responsive website](readme-images/am-i-responsive-image.png)
 
-## Table of Contents
-
-- [Design Features](###-Design-Features)
-- [Technologies Used](###-Technologies-Used)
-- [Testing](###-Testing)
-- [Deployment](###-Deployment)
-- [Credits](###-Credits)
-
-
-
-
 
 ### Design Features
 
-- The Title of the Game is centered and in bold to show . 
+- The Title of the Game is centered and in bold to show. 
 - Below the title is a small logo utilizing the combination of the rock, paper and scissors game images with some fun expressions.
-- The site is in black and white to better suit and emphasize the style of images it contains
+
+![rock paper scissors logo](assets/images/images.logo/rock-paper-scissors-logo-small.jpg)
+
+
+- The site is in black and white to better suit and emphasize the style of images it contains.
 - Google Fonts was used to import the font family East Sea Dokdo, which was chosen and used throughout the entire site with Sans Sarif as the backup font. East Sea Dokdo compliments the style of the images in it's course texture and bold design.
 - To increase the enjoyment of the game I designed some fun images to use as start images for rock, paper, and scissors with some fun facial expressions.
 
 - Start images of rock, paper, and scissors
+
 ![rock start image](assets/images/images-start/rock-start.jpg)
 ![paper start image](assets/images/images-start/paper-start.jpg)
 ![scissors start image](assets/images/images-start/scissors-start.jpg)
@@ -100,3 +94,27 @@ This site was deployed to GitHub pages and the steps to deploy are as follows:
 
 
 ### Credits
+
+- All content and images were produced by the developer.
+
+- Wikipedia provided historical facts on the game of rock-paper-scissors
+  
+  [https://en.wikipedia.org/wiki/Rock_paper_scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+
+Multiple websites and tutorials on these sites were referred to for learning purposes, review of HTML, CSS, and Javascript and for inspiration:
+
+- [Web Dev Simplified - both blog and YouTube channel](https://blog.webdevsimplified.com/)
+
+- [W3schools](https://www.w3schools.com/)
+
+- [Quackit](https://www.quackit.com/)
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+- [w3resource](https://www.w3resource.com/)
+
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+
+- [Stack Overflow](https://stackoverflow.com/)
+
+- 

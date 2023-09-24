@@ -1,4 +1,4 @@
-/*List all constants for DOM elements and game options */
+/* Constants for DOM elements and game options */
 
 let startImages = document.querySelectorAll(".startimage");
 let compPick;

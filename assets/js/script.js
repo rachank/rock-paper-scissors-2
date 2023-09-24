@@ -24,8 +24,6 @@ function playGame(e) {
 
     const pPick = e.target.id;
     findCompPick();
-    //const checkWinner = findWinner(pPick, compPick);
-    //console.log(pPick, compPick, checkWinner);
 
     // Determine game result
     const result = findWinner(pPick, compPick);

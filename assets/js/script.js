@@ -8,10 +8,10 @@ let playerScore = 0;
 let computerScore = 0;
 
 //Update score display
-function updateScore() {
-    document.getElementById('playerScore').textContent = playerScore;
-    document.getElementById('computerScore').textContent = computerScore;
-}
+//function updateScore() {
+  //  document.getElementById('playerScore').textContent = playerScore;
+    //document.getElementById('computerScore').textContent = computerScore;
+//}
 
 // GameBoard area - play game
 

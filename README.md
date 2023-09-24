@@ -18,33 +18,34 @@ This game is targeted for people who have an interest in gaming. The additional 
 <div align="center">
 <img  src="readme-images/rockpaperscissors-title.jpg?raw=true" alt="rock paper scissors title">
 </div>
-
+<br>
 - Below the title is a small logo utilizing the combination of the rock, paper and scissors game images with some fun expressions.
-
+<br>
 <div align="center">
 <img  src="assets/images/images.logo/rock-paper-scissors-logo-small.jpg?raw=true" alt="rock paper scissors logo">
 </div>
-
+<br>
 
 - A few brief historical facts are included on the game of Rock Paper Scissors for further interest.
-
+<br>
 <div align="center">
 <img  src="readme-images/historical-facts-rockpaperscissors.jpg?raw=true" alt="rock paper scissors historical facts">
 </div>
-
+<br>
 
 - Following the mini history lesson are the rules of the game.
-
+<br>
 <div align="center">
 <img  src="readme-images/rockpaperscissors-instructions.jpg?raw=true" alt="rock paper scissors rules">
 </div>
 
+<br>
 
 - The site is in black and white to better suit and emphasize the simplicity of the style of the font and images it contains.
 
-- Google Fonts was used to import the font family East Sea Dokdo, which was chosen and used throughout the entire site with Sans Serif as the backup font. East Sea Dokdo compliments the style of the images in it's coarse texture and bold, rough design.
+- Google Fonts was used to import the font family East Sea Dokdo, which was chosen and used throughout the entire site with Sans Serif as the backup font. East Sea Dokdo compliments the style of the images in its' coarse texture and bold, rough design.
 
-- To increase the enjoyment of the game some images were designed to use as clickable images for rock, paper, and scissors with some lively facial expressions.
+- To increase the enjoyment of the game, some images were designed to use as clickable images for rock, paper, and scissors with some lively facial expressions.
 
 - Start images of rock, paper, and scissors
 
@@ -52,9 +53,9 @@ This game is targeted for people who have an interest in gaming. The additional 
 <img alt="rock start image" src="assets/images/images-start/rock-start.jpg">
 <img alt="paper start image" src="assets/images/images-start/paper-start.jpg">
 <img alt="scissors start image" src="assets/images/images-start/scissors-start.jpg">
+</div>
 
-
-#### Features Still to Implement
+### Features Still to Implement
 
 - Include a game counter with a start again button.
 - Include an input request for the player's name and display it in the score board to personlize the game.
@@ -62,14 +63,20 @@ This game is targeted for people who have an interest in gaming. The additional 
 - Include some simple animation of the logo and on the images in the result modal to further enhance the entertainment value of the game.
 - Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game and to increase the player's amusement.
 
+<br>
 - Some of the Loser Image examples to add:
+<br>
 
-![dazed paper](assets/images/images-lose/paper-lose-dazed.jpg)
-![sad paper](assets/images/images-lose/paper-lose-sad.jpg)
-![grumpy rock](assets/images/images-lose/rock-lose-grumpy.jpg)
-![surprised rock](assets/images/images-lose/rock-lose-surprise.jpg)
-![sad scissors](assets/images/images-lose/scissors-lose-sad.jpg)
-![surprised scissors](assets/images/images-lose/scissors-lose-surprise.jpg)
+<div align="center">
+<img alt="dazed paper image" src="assets/images/images-lose/paper-lose-dazed.jpg">
+<img alt="sad paper image" src="assets/images/images-lose/paper-lose-sad.jpg">
+<img alt="grumpy rock image" src="assets/images/images-lose/rock-lose-grumpy.jpg">
+<img alt="surprised rock image" src="assets/images/images-lose/rock-lose-surprise.jpg">
+<img alt="sad scissors image" src="assets/images/images-lose/scissors-lose-sad.jpg">
+<img alt="smiling scissors image" src="assets/images/images-lose/scissors-lose-surprise.jpg">
+</div>
+
+<br>
 
 - Some of the Winner Image examples to add:
 

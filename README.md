@@ -14,15 +14,19 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 ### Design Features
 
-- The Title of the Game is centered and in bold to show. 
+- The Title of the Game is centered and in bold to show up well. 
+![rock paper scissors title](readme-images/rockpaperscissors-title.jpg)
+
+
 - Below the title is a small logo utilizing the combination of the rock, paper and scissors game images with some fun expressions.
 
 ![rock paper scissors logo](assets/images/images.logo/rock-paper-scissors-logo-small.jpg)
 
 
 - The site is in black and white to better suit and emphasize the style of images it contains.
+- A few brief historical facts are included on the game of Rock Paper Scissors for further insterest.
 - Google Fonts was used to import the font family East Sea Dokdo, which was chosen and used throughout the entire site with Sans Sarif as the backup font. East Sea Dokdo compliments the style of the images in it's course texture and bold design.
-- To increase the enjoyment of the game I designed some fun images to use as start images for rock, paper, and scissors with some fun facial expressions.
+- To increase the enjoyment of the game I designed some images to use as clickable images for rock, paper, and scissors with some fun facial expressions.
 
 - Start images of rock, paper, and scissors
 
@@ -34,9 +38,10 @@ This game is targeted for people who have an interest in gaming. The additional 
 #### Features Still to Implement
 
 - Include a game counter with a start again button.
-- Include an input request for the player's name and display it in the score board to personlize the game
+- Include an input request for the player's name and display it in the score board to personlize the game.
 - Include improved media queries to format the game to look more compact and fit better on each screen size.
-- Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game to increase the entertainment value of the game.
+- Include some simple animation of the logo and on the images in the result modal to further enhance the entertainment value of the game.
+- Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game to increase the gaming amusement.
 
 - Some of the Loser Image examples to add:
 

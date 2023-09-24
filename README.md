@@ -31,12 +31,12 @@ This game is targeted for people who have an interest in gaming. The additional 
 ![scissors start image](assets/images/images-start/scissors-start.jpg)
 
 
-#### Features Left to Implement
+#### Features Still to Implement
 
-- Include a game counter with a start again button
-- Include an input request for the player's name and display it in the score board to personlize the game more
-- Include improved media queries to format the game to look more compact and fit better on each screen size
-- Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game
+- Include a game counter with a start again button.
+- Include an input request for the player's name and display it in the score board to personlize the game
+- Include improved media queries to format the game to look more compact and fit better on each screen size.
+- Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game to increase the entertainment value of the game.
 
 - Some of the Loser Image examples to add:
 
@@ -123,4 +123,4 @@ To learn how to use Adobe Fresco:
 
 #### Acknowledgments
 
-Many many thanks to my mentor Brian Macharia who was very patient with my questions and gave me wonderful advice on how to plan and execute this project. He also recommended many ideas and resources to assit with coding, design, and testing.
+Many, many thanks to my mentor Brian Macharia who was very patient with my questions and gave me wonderful advice on how to plan and execute this project. He also recommended many ideas and resources to assist with coding, design, and testing. 

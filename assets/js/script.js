@@ -8,14 +8,20 @@ let playerScore = 0;
 let computerScore = 0;
 
 //Update score display
-//function updateScore() {
-  //  document.getElementById('playerScore').textContent = playerScore;
-    //document.getElementById('computerScore').textContent = computerScore;
-//}
+function updateScore() {
+    document.getElementById('playerScore').textContent = playerScore;
+    document.getElementById('computerScore').textContent = computerScore;
+}
 
 // GameBoard area - play game
 
 function playGame(e) {
+    //Check if player has chosen a start image.
+    if (e.target.id === "") {
+        alert("Please chose one of the images of Rock, Paper or Scissors to start the game")
+        return;
+    }
+    
     const pPick = e.target.id;
     findCompPick();
     const checkWinner = findWinner(pPick, compPick);
@@ -55,14 +61,15 @@ function findWinner(pPick, compPick) {
         (pPick === "paper" && compPick === 'rock') ||
         (pPick === 'scissors' && compPick === 'paper')
     ) {
-        playerScore++;
         //update player score
-        //document.getElementById('playerScore').textContent = playerScore;
+        playerScore++;
+        document.getElementById('playerScore').textContent = playerScore;
         return "You win!";
     } else {
-        computerScore++;
         //Update computer score
-       // document.getElementById('computerScore').textContent = computerScore;
+        computerScore++;
+        
+        document.getElementById('computerScore').textContent = computerScore;
         return "Computer wins!";
     }
 }

@@ -21,13 +21,15 @@ function playGame(e) {
         alert("Please chose one of the images of Rock, Paper or Scissors to start the game")
         return;
     }
-    
+
     const pPick = e.target.id;
     findCompPick();
     const checkWinner = findWinner(pPick, compPick);
     console.log(pPick, compPick, checkWinner);
+
     // Determine game result
     const result = findWinner(pPick, compPick);
+
     //Display result of game
     document.getElementById('result').textContent = result;
 }
@@ -61,15 +63,14 @@ function findWinner(pPick, compPick) {
         (pPick === "paper" && compPick === 'rock') ||
         (pPick === 'scissors' && compPick === 'paper')
     ) {
-        //update player score
+        //update player score and display player winner
         playerScore++;
-        document.getElementById('playerScore').textContent = playerScore;
+        updateScore();
         return "You win!";
     } else {
-        //Update computer score
+        //Update computer score and display computer winner
         computerScore++;
-        
-        document.getElementById('computerScore').textContent = computerScore;
+        updateScore();
         return "Computer wins!";
     }
 }

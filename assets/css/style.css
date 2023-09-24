@@ -7,11 +7,13 @@ body {
     margin: 0;
     position: relative;
 }
+
 /* style header & logo*/
 #heading {
     font-size: 6em;
     margin-block-end: 0.1e
 }
+
 /* How To Play heading and paragraph style */
 
 #heading2 {
@@ -20,6 +22,7 @@ body {
     margin-block-start: 0.2%;
     margin-block-end: 1%;
 }
+
 #playinfo {
     font-size: 2.5em;
     text-align: center;
@@ -28,14 +31,14 @@ body {
     margin: auto;
     max-width: 75%;
 }
+
 /* style score board area */
 .scoreboard-area {
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.3em
-
 }
 
 .scoreheading {
@@ -45,27 +48,29 @@ body {
     margin-block-start: 0.6em;
     margin-block-end: 0.1em;
 }
+
 .score {
     font-size: 3em;
     text-align: center;
     margin-block-start: 0.3em;
     margin-block-end: 0.3em;
 }
+
 /* style gameboard area */
 
 .gameboard {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     background-color: black;
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0, 1.5em;
     border: none;
-    overflow-x: hidden;  
-    
+    overflow-x: hidden;
+
 }
 
 .gameboardimage .startimage {
@@ -87,16 +92,76 @@ body {
     transform: scale(0.9);
 }
 
+/* style Game Results Area*/
+
+.winnerarea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3em
+}
+
 #result {
-    font-size: 6em;
+    font-size: 4em;
+    text-align: center;
+    margin-block-start: 0.6em;
+    margin-block-end: 0.1em;
+}
+
+.choice {
+    font-size: 4em;
+    text-decoration-line: underline;
     text-align: center;
     margin-block-start: 0.1em;
     margin-block-end: 0.1em;
 }
 
+#compPick {
+    font-size: 4em;
+    text-align: center;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+
+
+/* style Game Results Area
+
+.winnerarea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3em
+}
+
+#result {
+    font-size: 6em;
+    text-align: center;
+    padding: 0.2em;
+   
+    align-content: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+
 .choice {
     font-size: 6em;
     text-align: center;
-    margin-block-start: 0.1em;
-    margin-block-end: 6em;
+    max-width: 100%;
+    padding: 0.2em;
+    align-content: center;
+    overflow: hidden;
+    object-fit: cover;
 }
+
+#compPick {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100%;
+    padding: 0.2em;
+    align-content: center;
+    overflow: hidden;
+    object-fit: cover;
+} */

@@ -5,7 +5,7 @@ This is a rock paper scissors game. It is designed to be used by a single player
 
 The rules of the game are the same as the original version. Rock beats scissors, scissors beats paper, and paper beats rock.
 
-This game is targeted for people who have an interest in gaming. The additional graphics also incorrporate some more fun into the game. The game lists the rules and instructions at the beginning with a little historical fact on the game origins.
+This game is targeted for people who have an interest in gaming. The additional graphics also incorrporate some more interest and fun into the game. The game lists the rules and instructions at the beginning with a few small historical facts on the origins of the game for those who might be interested.
 
 [View the live project here.](https://rachank.github.io/rock-paper-scissors-2/)
 
@@ -14,25 +14,44 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 ### Design Features
 
-- The Title of the Game is centered and in bold to show up well. 
-![rock paper scissors title](readme-images/rockpaperscissors-title.jpg)
-
+- The Title of the game is centered and in bold to stand out. 
+<div align="center">
+<img  src="readme-images/rockpaperscissors-title.jpg?raw=true" alt="rock paper scissors title">
+</div>
 
 - Below the title is a small logo utilizing the combination of the rock, paper and scissors game images with some fun expressions.
 
-![rock paper scissors logo](assets/images/images.logo/rock-paper-scissors-logo-small.jpg)
+<div align="center">
+<img  src="assets/images/images.logo/rock-paper-scissors-logo-small.jpg?raw=true" alt="rock paper scissors logo">
+</div>
 
 
-- The site is in black and white to better suit and emphasize the style of images it contains.
-- A few brief historical facts are included on the game of Rock Paper Scissors for further insterest.
-- Google Fonts was used to import the font family East Sea Dokdo, which was chosen and used throughout the entire site with Sans Sarif as the backup font. East Sea Dokdo compliments the style of the images in it's course texture and bold design.
-- To increase the enjoyment of the game I designed some images to use as clickable images for rock, paper, and scissors with some fun facial expressions.
+- A few brief historical facts are included on the game of Rock Paper Scissors for further interest.
+
+<div align="center">
+<img  src="readme-images/historical-facts-rockpaperscissors.jpg?raw=true" alt="rock paper scissors historical facts">
+</div>
+
+
+- Following the mini history lesson are the rules of the game.
+
+<div align="center">
+<img  src="readme-images/rockpaperscissors-instructions.jpg?raw=true" alt="rock paper scissors rules">
+</div>
+
+
+- The site is in black and white to better suit and emphasize the simplicity of the style of the font and images it contains.
+
+- Google Fonts was used to import the font family East Sea Dokdo, which was chosen and used throughout the entire site with Sans Serif as the backup font. East Sea Dokdo compliments the style of the images in it's coarse texture and bold, rough design.
+
+- To increase the enjoyment of the game some images were designed to use as clickable images for rock, paper, and scissors with some lively facial expressions.
 
 - Start images of rock, paper, and scissors
 
-![rock start image](assets/images/images-start/rock-start.jpg)
-![paper start image](assets/images/images-start/paper-start.jpg)
-![scissors start image](assets/images/images-start/scissors-start.jpg)
+<div align="center">
+<img alt="rock start image" src="assets/images/images-start/rock-start.jpg">
+<img alt="paper start image" src="assets/images/images-start/paper-start.jpg">
+<img alt="scissors start image" src="assets/images/images-start/scissors-start.jpg">
 
 
 #### Features Still to Implement
@@ -41,7 +60,7 @@ This game is targeted for people who have an interest in gaming. The additional 
 - Include an input request for the player's name and display it in the score board to personlize the game.
 - Include improved media queries to format the game to look more compact and fit better on each screen size.
 - Include some simple animation of the logo and on the images in the result modal to further enhance the entertainment value of the game.
-- Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game to increase the gaming amusement.
+- Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game and to increase the player's amusement.
 
 - Some of the Loser Image examples to add:
 
@@ -124,8 +143,8 @@ To learn how to use Adobe Fresco:
 
 - [Adobe Fresco Tutorials](https://creativecloud.adobe.com/de/learn/app/fresco)
 
-- Various Channels on [YouTube](https://www.youtube.com/)
+- Various Channels relating to Adobe Fresco on [YouTube](https://www.youtube.com/)
 
 #### Acknowledgments
 
-Many, many thanks to my mentor Brian Macharia who was very patient with my questions and gave me wonderful advice on how to plan and execute this project. He also recommended many ideas and resources to assist with coding, design, and testing. 
+Many, many thanks to my mentor Brian Macharia who was very patient with my questions, followed up with further information,  and gave me wonderful advice on how to plan and execute this project. He also recommended many ideas and resources to assist with coding, design, and testing. 

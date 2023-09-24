@@ -28,7 +28,7 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 #### Title and Logo
 
-- The Title of the Game is clearly centered. 
+- The Title of the Game is centered and in bold to show . 
 - Below the title is a small logo utilizing the combination of the rock, paper and scissors game images.
 - 
 
@@ -47,8 +47,12 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 #### Features Left to Implement
 
-- Include mulitple random images for the winner and loser in a pop up modal 
-- Some of the Loser Image examples to Add:
+- Include a game counter with a start again button
+- Include an input request for the player's name and display it in the score board to personlize the game more
+- Include improved media queries to format the game to look more compact and fit better on each screen size
+- Include mulitple random images for the winner and loser in a pop up modal to better display the outcome of each game
+
+- Some of the Loser Image examples to add:
 
 ![dazed paper](assets/images/images-lose/paper-lose-dazed.jpg)
 ![sad paper](assets/images/images-lose/paper-lose-sad.jpg)
@@ -57,7 +61,7 @@ This game is targeted for people who have an interest in gaming. The additional 
 ![sad scissors](assets/images/images-lose/scissors-lose-sad.jpg)
 ![surprised scissors](assets/images/images-lose/scissors-lose-surprise.jpg)
 
-- Some of the Winner Image Examples to Add:
+- Some of the Winner Image examples to add:
 
 ![smiling paper](assets/images/images-win/paper-win-smile.jpg)
 ![teasing paper](assets/images/images-win/paper-win-tease.jpg)

@@ -25,7 +25,16 @@ This game is targeted for people who have an interest in gaming. The additional 
 <img  src="assets/images/images.logo/rock-paper-scissors-logo-small.jpg?raw=true" alt="rock paper scissors logo">
 </div>
 <br>
-
+- A favicon was designed with the same font as used in the entire project, East Sea Dokdo, from Google Fonts and Favicon.io to design this unique favicon.
+<div align="center">
+<img src="assets/images/favicon/android-chrome-192x192.png?raw=true" alt="rock paper scissors favicon">
+</div>
+<br>
+- The Title of the game is centered and in bold to stand out. 
+<div align="center">
+<img  src="readme-images/rockpaperscissors-title.jpg?raw=true" alt="rock paper scissors title">
+</div>
+<br>
 - A few brief historical facts are included on the game of Rock Paper Scissors for further interest.
 <br>
 <div align="center">
@@ -112,7 +121,8 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 #### Validator Testing
 
-
+- I tested this page to ensure that it functions on different browers: Chrome, Firefox, Safari.
+- 
 
 
 
@@ -125,7 +135,6 @@ This site was deployed to GitHub pages and the steps to deploy are as follows:
 - To see the published site, under 'GitHub Pages', click on 'Visit site'.
 
 [View the live project here.](https://rachank.github.io/rock-paper-scissors-2/)
-
 
 
 ### Credits
@@ -157,6 +166,7 @@ To learn how to use Adobe Fresco:
 - [Adobe Fresco Tutorials](https://creativecloud.adobe.com/de/learn/app/fresco)
 
 - Various Channels relating to Adobe Fresco on [YouTube](https://www.youtube.com/)
+
 
 #### Acknowledgments
 

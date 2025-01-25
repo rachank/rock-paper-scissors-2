@@ -99,12 +99,14 @@ This game is targeted for people who have an interest in gaming. The additional 
 #### Programs Used
 
 - [Adobe Fresco](https://www.adobe.com/products/fresco.html): used to create original rock, paper, and scissors images.
+- [Shrink Media](https://www.shrink.media): used to reduce image sizes quickly.
 - [Google Fonts](https://fonts.google.com/): used to import font family 'East Sea Dokdo'.
 - [Favicon Generator](https://favicon.io): used to design the unique favicon for the game.
 - [Am I Responsive](https://ui.dev/amiresponsive): used to check responsiveness.
 - [Gitpod](https://www.gitpod.io/): used to develope the project's code.
 - [GitHub](https://github.com/): used to store the project's code 
 - [Vscode](https://code.visualstudio.com): used to develope the project's code.
+
 
 ### Testing
 

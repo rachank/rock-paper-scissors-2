@@ -10,7 +10,7 @@ body {
 
 /* style header & logo*/
 #heading {
-    font-size: 6em;
+    font-size: 4em;
     margin-block-end: 0.1e
 }
 
@@ -48,14 +48,14 @@ body {
 /* How To Play heading and paragraph style */
 
 #heading2 {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: bold;
-    margin-block-start: 0.2%;
-    margin-block-end: 1%;
+    margin-block-start: 0.1%;
+    margin-block-end: 0.2%;
 }
 
 #playinfo {
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-align: center;
     margin-block-start: 0.5em;
     margin-block-end: 0.3em;
@@ -73,15 +73,15 @@ body {
 }
 
 .scoreheading {
-    font-size: 4em;
+    font-size: 2em;
     text-decoration-line: underline;
     text-align: center;
-    margin-block-start: 0.6em;
+    margin-block-start: 0.3em;
     margin-block-end: 0.1em;
 }
 
 .score {
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
     margin-block-start: 0.3em;
     margin-block-end: 0.3em;
@@ -98,14 +98,14 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0;
-    padding: 0, 1.5em;
+    padding: 0, 1em;
     border: none;
     overflow-x: hidden;
 }
 
 .gameboardimage .startimage {
     display: block;
-    padding: 1.5em;
+    padding: 1em;
     cursor: pointer;
     align-items: center;
     max-width: 100%;
@@ -114,7 +114,7 @@ body {
 
 .startimage {
     max-width: 100%;
-    padding: 1.5em;
+    padding: 1em;
     align-content: center;
     overflow: hidden;
     object-fit: cover;
@@ -132,36 +132,36 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.2em
+    gap: 0.1em
 }
 
 #result {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     margin-block-start: 0.2em;
     margin-block-end: 0.01em;
 }
 
 .choice {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
-    margin-block-start: 0.001em;
+    margin-block-start: 1em;
     margin-block-end: 0%;
 }
 
 #compPick {
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
-    margin-block-start: 0%;
+    margin-block-start: 0.001em;
     margin-block-end: 0.01;
 }
 
 
-
-/* Media query for smaller screens */
+/*
+/* Media query for smaller screens 
 @media (max-width: 768px) {
 
-    /* Adjust font sizes for smaller screens */
+    /* Adjust font sizes for smaller screens 
     #heading {
         font-size: 4em;
     }
@@ -217,10 +217,10 @@ body {
     }
 }
 
-/* Media query for small phones (max-width: 320px) */
+/* Media query for small phones (max-width: 320px) 
 @media (max-width: 320px) {
 
-    /* Adjust font sizes and margins for small phones */
+    /* Adjust font sizes and margins for small phones 
     #heading {
         font-size: 3em;
 

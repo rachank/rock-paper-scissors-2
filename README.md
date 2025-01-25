@@ -150,6 +150,8 @@ Multiple websites and tutorials on these sites were referred to for learning pur
 
 - [Stack Overflow](https://stackoverflow.com/)
 
+- [web.dev](https://web.dev/)
+
 To learn how to use Adobe Fresco:
 
 - [Adobe Fresco Tutorials](https://creativecloud.adobe.com/de/learn/app/fresco)

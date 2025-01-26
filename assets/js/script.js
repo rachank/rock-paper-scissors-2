@@ -1,3 +1,4 @@
+// jshint esversion: 6
 /* Constants for DOM elements and game options */
 let startImages = document.querySelectorAll(".startimage");
 let compPick;
@@ -17,7 +18,7 @@ function updateScore() {
 function playGame(e) {
     //Check if player has chosen a start image.
     if (e.target.id === "") {
-        alert("Please chose one of the images of Rock, Paper or Scissors to start the game")
+        alert("Please chose one of the images of Rock, Paper or Scissors to start the game");
         return;
     }
 

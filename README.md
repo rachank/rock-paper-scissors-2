@@ -19,7 +19,7 @@ This game is targeted for people who have an interest in gaming. The additional 
 <img  src="readme-images/rockpaperscissors-title.jpg?raw=true" alt="rock paper scissors title">
 </div>
 <br>
-- Below the title is a small logo utilizing the combination of the rock, paper and scissors game images with some fun expressions.
+- Below the title is a small logo utilizing the combination of the rock, paper and scissors game images with some fun expressions and animations that are activated when hovered over.
 <br>
 <div align="center">
 <img  src="assets/images/images.logo/rock-paper-scissors-logo-small.jpg?raw=true" alt="rock paper scissors logo">
@@ -47,7 +47,6 @@ This game is targeted for people who have an interest in gaming. The additional 
 <div align="center">
 <img  src="readme-images/rockpaperscissors-instructions.jpg?raw=true" alt="rock paper scissors rules">
 </div>
-
 <br>
 
 - The site is in black and white to better suit and emphasize the simplicity of the style of the font and images it contains.
@@ -88,14 +87,14 @@ This game is targeted for people who have an interest in gaming. The additional 
 <br>
 
 - Some of the Winner Image examples to add:
-
+<div align="center">
 ![smiling paper](assets/images/images-win/paper-win-smile.jpg)
 ![teasing paper](assets/images/images-win/paper-win-tease.jpg)
 ![laughing rock](assets/images/images-win/rock-win-laugh.jpg)
 ![winking rock](assets/images/images-win/rock-win-wink.jpg)
 ![laughing scissors](assets/images/images-win/scissors-win-laugh.jpg)
 ![smiling scissors](assets/images/images-win/scissors-win-smile.jpg)
-
+</div>
 
 ### Technologies Used
 
@@ -122,9 +121,12 @@ This game is targeted for people who have an interest in gaming. The additional 
 #### Validator Testing
 
 - I tested this page to ensure that it functions on different browers: Chrome, Firefox, Safari.
-- 
+- I used the devtools device toolbar in Chrome to confirm that this site is respoinsive, looks good and functions correctly on all standard screen sizes.
+
+- HTML
 
 
+- CSS
 
 
 ### Deployment

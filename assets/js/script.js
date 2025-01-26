@@ -18,7 +18,7 @@ function updateScore() {
 function playGame(e) {
     //Check if player has chosen a start image.
     if (e.target.id === "") {
-        alert("Please chose one of the images of Rock, Paper or Scissors to start the game");
+        alert("Please choose one of the images of Rock, Paper or Scissors to start the game");
         return;
     }
 

@@ -11,7 +11,7 @@ body {
 /* style header & logo*/
 #heading {
     font-size: 3em;
-    margin-block-end: 0.1e
+    margin-block-end: 0.1em
 }
 
 /* Animation on Logo image*/
@@ -35,7 +35,7 @@ body {
     }
 
     50% {
-        transform: translate(0, 0) rotate(0eg);
+        transform: translate(0, 0) rotate(0deg);
     }
 
     75% {
@@ -129,10 +129,10 @@ body {
 
 .winnerarea {
     display: flex
-    flex-direction: column;
+   /* flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.1em
+    gap: 0.1em */
 }
 
 #result {

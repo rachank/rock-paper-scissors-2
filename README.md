@@ -126,7 +126,13 @@ This game is targeted for people who have an interest in gaming. The additional 
 - HTML
 
 
+
 - CSS
+
+
+
+- Javascript
+- Tested in JSHint with no errors shown
 
 
 ### Deployment

@@ -123,6 +123,8 @@ This game is targeted for people who have an interest in gaming. The additional 
 - I tested this page to ensure that it functions on different browers: Chrome, Firefox, Safari.
 - I used the devtools device toolbar in Chrome to confirm that this site is respoinsive, looks good and functions correctly on all standard screen sizes.
 
+
+
 ##### HTML
 - tested HTML code in W3C Validator, only a minor warning came up with regard to the section element used on line 48. Did not seem relevant in this case.
 

@@ -132,7 +132,7 @@ body {
    /* flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.1em */
+    gap: 0.1em */ 
 }
 
 #result {
@@ -153,6 +153,6 @@ body {
     font-size: 1em;
     text-align: center;
     margin-block-start: 0.001em;
-    margin-block-end: 0.001;
+    margin-block-end: 0.001em;
 }
 

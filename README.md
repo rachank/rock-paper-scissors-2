@@ -133,7 +133,7 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 This site was deployed to GitHub pages and the steps to deploy are as follows:
 - In the GitHub respository navigate to the settings tab in the top right hand corner.
-- In the 'Code and Automation' section of the sidebar, click 'Pages'.
+- In the 'Code and Automation' section of the sidebar on the right hand side of the page, click 'Pages'.
 - To see the published site, under 'GitHub Pages', click on 'Visit site'.
 
 [View the live project here.](https://rachank.github.io/rock-paper-scissors-2/)

@@ -88,12 +88,12 @@ This game is targeted for people who have an interest in gaming. The additional 
 
 - Some of the Winner Image examples to add:
 <div align="center">
-![smiling paper](assets/images/images-win/paper-win-smile.jpg)
-![teasing paper](assets/images/images-win/paper-win-tease.jpg)
-![laughing rock](assets/images/images-win/rock-win-laugh.jpg)
-![winking rock](assets/images/images-win/rock-win-wink.jpg)
-![laughing scissors](assets/images/images-win/scissors-win-laugh.jpg)
-![smiling scissors](assets/images/images-win/scissors-win-smile.jpg)
+<img alt="smiling paper" src="assets/images/images-win/paper-win-smile.jpg">
+<img alt="teasing paper" src="assets/images/images-win/paper-win-tease.jpg">
+<img alt="laughing rock" src="assets/images/images-win/rock-win-laugh.jpg">
+<img alt="winking rock" src="assets/images/images-win/rock-win-wink.jpg">
+<img alt="laughing scissors" src="assets/images/images-win/scissors-win-laugh.jpg">
+<img alt="smiling scissors" src="assets/images/images-win/scissors-win-smile.jpg">
 </div>
 
 ### Technologies Used

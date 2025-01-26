@@ -129,10 +129,10 @@ body {
 
 .winnerarea {
     display: flex
-   /* flex-direction: column;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.1em */ 
+    gap: 0.1em 
 }
 
 #result {

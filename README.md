@@ -123,7 +123,12 @@ This game is targeted for people who have an interest in gaming. The additional 
 - I tested this page to ensure that it functions on different browers: Chrome, Firefox, Safari.
 - I used the devtools device toolbar in Chrome to confirm that this site is respoinsive, looks good and functions correctly on all standard screen sizes.
 
+##### Lighthouse Test Results
+- Performance could be inproved with small changes to images and a few other more complicated issues that I still need to learn about.
 
+<div align="center">
+<img src="readme-images/lighthouse-results.jpg" alt="lighthouse test results">
+</div>
 
 ##### HTML
 - tested HTML code in W3C Validator, only a minor warning came up with regard to the section element used on line 48. Did not seem relevant in this case.

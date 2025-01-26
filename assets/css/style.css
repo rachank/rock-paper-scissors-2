@@ -128,7 +128,7 @@ body {
 /* style Game Results Area*/
 
 .winnerarea {
-    display: block;
+    display: flex
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -145,13 +145,13 @@ body {
 .choice {
     font-size: 2em;
     text-align: center;
-    margin-block-start: 1em;
+    margin-block-start: 0.001em;
     margin-block-end: 0%;
 }
 
 #compPick {
     font-size: 1em;
-   /* text-align: center;*/
+    text-align: center;
     margin-block-start: 0.001em;
     margin-block-end: 0.001;
 }
